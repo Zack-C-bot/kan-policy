@@ -1,7 +1,7 @@
 # KAN POLICY
 ## Simulation
 ###  Installation
-To reproduce our simulation benchmark results, install the provided conda environment on a Linux machine equipped with an Nvidia GPU. For Ubuntu 20.04, you will need to install the following apt packages to support MuJoCo:
+To reproduce our simulation benchmark results, install the provided conda environment on a Linux machine equipped with Nvidia GPUs. For Ubuntu, you will need to install the following apt packages to support MuJoCo:
 ```console
 $ sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
 ```
