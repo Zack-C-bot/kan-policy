@@ -35,3 +35,6 @@ $ python eval.py --checkpoint data/your_name.ckpt --output_dir data/pusht_eval_o
 ```
 ### Our devices
 We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model architecture in subsequent updates.
+
+## Real-World
+coming soon...
