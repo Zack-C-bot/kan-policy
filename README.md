@@ -24,12 +24,14 @@ Extract it to the folder and back:
 ```console
 $ unzip pusht.zip & cd ..
 ```
-Launch training with seed 42 on GPU 0:
+Launch training with seed 42 on GPU 0, we trained the Push-T on the NVIDIA RTX 2080 Ti GPU:
 ```console
-$ python train.py --config-dir=. --config-name=low_dim.yaml training.seed=42 training.device=cuda:0 hydra.run.dir='data/outputs/pusht/42'
+$ python train.py --config-dir=. --config-name=pusht.yaml training.seed=42 training.device=cuda:0 hydra.run.dir='data/outputs/pusht/42'
 ```
 ###  Eval
 you can eval with single seed on GPU 0.
 ```console
 $ python eval.py --checkpoint data/your_name.ckpt --output_dir data/pusht_eval_output --device cuda:0
 ```
+### Our devices
+We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model architecture in subsequent updates.
