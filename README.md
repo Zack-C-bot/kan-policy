@@ -21,7 +21,7 @@ build the data folder:
 ```console
 $ mkdir data & cd data
 ```
-get the dataset from https://diffusion-policy.cs.columbia.edu/data/training or download straightforwardly, as example:
+download the dataset, as example:
 ```console
 $ wget https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip
 ```
