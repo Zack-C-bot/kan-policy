@@ -38,6 +38,36 @@ you can eval with single seed on GPU 0.
 ```console
 $ python eval.py --checkpoint data/your_name.ckpt --output_dir data/pusht_eval_output --device cuda:0
 ```
+
+if your experimental directory like this:
+```
+data
+├── outputs
+    ├── pusht
+       ├── 42 
+           ├── checkpoints
+               ├── epoch=0300-test_mean_score=1.000.ckpt
+               └── latest.ckpt  
+      ├── 43
+          ├── checkpoints
+              ├── epoch=0250-test_mean_score=1.000.ckpt
+              └── latest.ckpt
+      └── 44
+          ├── checkpoints
+              ├── epoch=0250-test_mean_score=1.000.ckpt
+              └── latest.ckpt
+```
+#### Reference statistical code
+you can eval with all ckpts across three seeds with editing the code in evals.py and then run, the code also can generate trajectories.
+```console
+$ python evals.py
+```
+samely with the mean time, you can edit the code in time_summary.py and run.
+```console
+$ python time_summary.py
+```
+
+
 ### Our devices
 We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model architecture in subsequent updates.
 
