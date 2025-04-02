@@ -9,7 +9,12 @@ build a conda environment frist:
 ```console
 $ conda env create -f conda_environment.yaml & conda activate kp
 ```
-for transformer-based models we apply Kat Group, which comes from https://github.com/Adamdad/rational_kat_cu. "Plaese follow the instuction to install rational_kat".
+for transformer-based models we apply Kat Group,  please follow the instuctions to install rational_kat:
+```console
+$ git clone https://github.com/Adamdad/rational_kat_cu.git
+$ cd rational_kat_cu
+$ pip install -e .
+```
 
 ###  Train
 build the data folder:
