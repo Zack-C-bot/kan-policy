@@ -69,7 +69,7 @@ $ python time_summary.py
 
 
 ### Our devices
-We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model architecture in subsequent updates.
+We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model ckpts in subsequent updates.
 
 ## Real-World
 coming soon...
