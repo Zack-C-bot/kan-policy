@@ -39,6 +39,7 @@ you can eval with single seed on GPU 0.
 $ python eval.py --checkpoint data/your_name.ckpt --output_dir data/pusht_eval_output --device cuda:0
 ```
 
+#### Reference statistical code
 if your experimental directory like this:
 ```
 data
@@ -57,7 +58,6 @@ data
               ├── epoch=0250-test_mean_score=1.000.ckpt
               └── latest.ckpt
 ```
-#### Reference statistical code
 you can eval with all ckpts across three seeds with editing the code in evals.py and then run, the code also can generate trajectories.
 ```console
 $ python evals.py
