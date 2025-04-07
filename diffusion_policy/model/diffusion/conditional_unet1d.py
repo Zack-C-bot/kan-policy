@@ -361,7 +361,8 @@ class shiftedBlock1d(nn.Module):
         # MLP hidden dimension
         mlp_hidden_dim = int(dim * mlp_ratio)
         
-        # condition encoder
+        # FiLM modulation https://arxiv.org/abs/1709.07871
+        # predicts per-channel scale and bias
         self.cond_encoder = nn.Sequential(
             nn.Mish(),
             nn.Linear(cond_dim, self.cond_channels),
