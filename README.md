@@ -17,6 +17,7 @@ $ pip install -e .
 ```
 
 ###  Train
+
 build the data folder:
 ```console
 $ mkdir data & cd data
@@ -70,6 +71,10 @@ $ python time_summary.py
 
 ### Our devices
 We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model ckpts in subsequent updates.
+
+### Code
+Our code is built upon Diffusion Policy, with modifications implemented to accommodate our experimental requirements.
+
 
 ## Real-World
 coming soon...
