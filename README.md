@@ -70,11 +70,7 @@ $ python time_summary.py
 
 
 ### Notice
-
 1.We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model ckpts in subsequent updates.
-
-2.Our code is built upon Diffusion Policy, with modifications implemented to accommodate our experimental requirements.
-
 
 ## Real-World
 coming soon...
