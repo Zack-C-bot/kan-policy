@@ -1,7 +1,7 @@
 # KAN POLICY
 ## Simulation
 ###  Installation
-To reproduce our simulation benchmark results, install the provided conda environment on a Linux machine equipped with Nvidia GPUs. For Ubuntu, you will need to install the following apt packages to support MuJoCo:
+The code environment setup follows the same installation steps as [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), and We thank the authors for sharing their codebase:
 ```console
 $ sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
 ```
@@ -74,6 +74,8 @@ $ python time_summary.py
 
 ### Notice
 1.We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model ckpts in subsequent updates. If needed, we can initially provide checkpoints for a subset of the tasks.
+
+2.
 
 ## Real-World
 coming soon...
