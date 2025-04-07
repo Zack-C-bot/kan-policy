@@ -48,17 +48,17 @@ data
     ├── pusht
        ├── 42 
            ├── checkpoints
-               ├── epoch=0300-test_mean_score=1.000.ckpt
+               ├── epoch=2100-test_mean_score=0.977.ckpt
                ... 
                └── latest.ckpt  
       ├── 43
           ├── checkpoints
-              ├── epoch=0250-test_mean_score=1.000.ckpt
+              ├── epoch=2850-test_mean_score=0.997.ckpt
               ... 
               └── latest.ckpt
       └── 44
           ├── checkpoints
-              ├── epoch=0250-test_mean_score=1.000.ckpt
+              ├── epoch=3150-test_mean_score=0.978.ckpt
               ...  
               └── latest.ckpt
 ```
