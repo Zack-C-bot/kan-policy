@@ -295,7 +295,8 @@ class kan(nn.Module):
         x = x.reshape(B, N, self.out_features).contiguous()  # Reshape back to (B, N, C)
 
         return x
-
+        
+#Copied from kat_rational_cu https://github.com/Adamdad/rational_kat_cu.git
 class KAN(nn.Module):
     """MLP as used in Vision Transformer, MLP-Mixer and related networks."""
     def __init__(
