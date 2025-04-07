@@ -49,14 +49,17 @@ data
        ├── 42 
            ├── checkpoints
                ├── epoch=0300-test_mean_score=1.000.ckpt
+               ... 
                └── latest.ckpt  
       ├── 43
           ├── checkpoints
               ├── epoch=0250-test_mean_score=1.000.ckpt
+              ... 
               └── latest.ckpt
       └── 44
           ├── checkpoints
               ├── epoch=0250-test_mean_score=1.000.ckpt
+              ...  
               └── latest.ckpt
 ```
 you can eval with all ckpts across three seeds with editing the code in evals.py and then run, the code also can generate trajectories.
@@ -70,7 +73,7 @@ $ python time_summary.py
 
 
 ### Notice
-1.We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model ckpts in subsequent updates.
+1.We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model ckpts in subsequent updates. 
 
 ## Real-World
 coming soon...
