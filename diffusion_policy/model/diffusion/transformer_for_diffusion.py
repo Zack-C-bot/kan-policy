@@ -6,6 +6,7 @@ from diffusion_policy.model.diffusion.positional_embedding import SinusoidalPosE
 from diffusion_policy.model.common.module_attr_mixin import ModuleAttrMixin
 from kat_rational import KAT_Group
 
+#Copied from kat_rational_cu https://github.com/Adamdad/rational_kat_cu.git
 class KAN(nn.Module):
     """MLP as used in Vision Transformer, MLP-Mixer and related networks."""
 
