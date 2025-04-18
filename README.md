@@ -73,9 +73,7 @@ $ python time_summary.py
 
 
 ### Notice
-1.We utilized a significant number of GPUs for model training, and we'll be sharing full details along with parameter configurations and our model ckpts in subsequent updates. If needed, we can initially provide checkpoints for a subset of the tasks.
-
-2.
+1.We utilized a significant number of GPUs for model training, and we'll be sharing our model ckpts in subsequent updates. If needed, we can initially provide checkpoints for a subset of the tasks.
 
 ## Real-World
 coming soon...
