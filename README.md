@@ -1,7 +1,7 @@
 # KAN POLICY
 ## Simulation
 ###  Installation
-The code environment setup follows the same installation steps as Diffusion Policy, and we thank the authors for sharing their codebase:
+The code environment setup follows the same installation steps as Diffusion Policy[https://github.com/real-stanford/diffusion_policy], and we thank the authors for sharing their codebase:
 ```console
 $ sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
 ```
