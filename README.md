@@ -73,7 +73,8 @@ $ python time_summary.py
 
 
 ### Notice
-1.We utilized a significant number of GPUs for model training, including 2080Ti, 4080super and 4090. We'll be sharing our model ckpts its corresponding GPU in subsequent updates. If needed, we can initially provide checkpoints for a subset of the tasks.
+1.We utilized a significant number of GPUs for model training, including 2080Ti, 4080super and 4090. We'll be sharing our model ckpts its corresponding GPU in subsequent updates. If needed, we can initially provide [ckpts](通过网盘分享的文件：KP
+链接: https://pan.baidu.com/s/1CnMXFoLrzkwdAMltikmLKQ?pwd=kpkp 提取码: kpkp) for a subset of the tasks.
 
 ## Real-World
 coming soon...
