@@ -168,7 +168,7 @@ def time_one(ori,kan,limit=30.0,inter=True,save=True):
                 name=file_paths[0].split('/')[-2]+'_'+file_paths[0].split('/')[-1]+'————'+file_paths[1].split('/')[-1]
                 data=[name,total,total/count,count,count1/count,count2/count,kcount,ocount,fcount,temp,index]
                 print(f'model:{name}',total,total/count,count,count1/count,count2/count,kcount,ocount,fcount,temp,index)
-                path = "/mnt/data0/data_shared/chenzikang-data/diffusion_policy/data/"
+                path = "YOURPATH"
                 if not os.path.exists(path):
                     os.mkdir(path)
                     with open(path+'output.txt', "w") as f:
@@ -184,8 +184,7 @@ def time_one(ori,kan,limit=30.0,inter=True,save=True):
     with open(path+'output.txt', "a") as f:
         f.write('**************')
         
-ckpt_lists=['/mnt/data0/data_shared/chenzikang-data/diffusion_policy/data/can_mh_cnn','/mnt/data0/data_shared/chenzikang-data/diffusion_policy/data/can_mh_low_cnn_k'
-            ,'/mnt/data0/data_shared/chenzikang-data/diffusion_policy/data/can_mh_t','/mnt/data0/data_shared/chenzikang-data/diffusion_policy/data/can_mh_t_k']
+ckpt_lists=['YOURPATH']
 
 
 for i in ckpt_lists:
@@ -194,7 +193,7 @@ for i in ckpt_lists:
 # this code is to get the mean average time for the intersection of test environments
 
 
-# ckpt_lists=['/mnt/data0/data_shared/chenzikang-data/diffusion_policy/data/pushtkandw3']
+# ckpt_lists=['YOURPATH']
 #
 # time_dict={'lift_ph':20.0,'lift_mh':25.0,'can_ph':20.0,'can_mh':25.0,'square_ph':20.0,'square_mh':25.0,'tool_hang':35.0,'pusht':30.0,'transport':35.0}
 # def map_time(di,target):
