@@ -30,7 +30,7 @@ Extract it to the folder and back:
 ```console
 $ unzip pusht.zip & cd ..
 ```
-Launch training with seed 42 on GPU 0, we trained the Push-T on the NVIDIA RTX 2080 Ti GPU:
+Launch training with seed 42 on GPU 0, we trained the Push-T on the NVIDIA RTX 2080 Ti GPU. More configs can be found in the directory ```config```:
 ```console
 $ python train.py --config-dir=. --config-name=pusht.yaml training.seed=42 training.device=cuda:0 hydra.run.dir='data/outputs/pusht/42'
 ```
