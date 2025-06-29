@@ -30,7 +30,7 @@ def pymunk_to_shapely(body, shapes):
 def save_tradata(data,path_id):
     id=int(path_id.split('/')[-1])
     name=path_id.split('/')[-2]
-    path='/home/data/chenzikang/diffusion_policy/data/tra/'+name
+    path='./data/tra/'+name
     path=path+'/tra{}.csv'.format(id+100000)
     if os.path.exists(path):
         df = pd.DataFrame(data)
