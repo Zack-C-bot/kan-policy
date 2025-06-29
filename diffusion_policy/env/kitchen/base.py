@@ -70,7 +70,7 @@ class KitchenBase(KitchenTaskRelaxV1):
 
     def _get_task_goal(self, task=None, actually_return_goal=False):
         if task is None:
-            task = ["microwave", "kettle", "bottom burner", "light switch"]
+            task = ["bottom burner","top burner", "light switch","slide cabinet","hinge cabinet","microwave","kettle",]
         new_goal = np.zeros_like(self.goal)
         if self.goal_masking and not actually_return_goal:
             return new_goal
@@ -136,10 +136,9 @@ class KitchenBase(KitchenTaskRelaxV1):
             self.tasks_to_complete
         )
         
-        if len(env_info["completed_tasks"])==4:
+        if len(env_info["completed_tasks"])==5:
             done=True
             
-        
         return obs, reward, done, env_info
 
     def get_goal(self):
