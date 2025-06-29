@@ -10,8 +10,8 @@ import re
 def save_tradata(data,path_id):
     id=int(path_id.split('/')[-1])
     name=path_id.split('/')[-2]
-    path='/home/data/chenzikang/diffusion_policy/data/ttra/'+name
-    path1='/home/data/chenzikang/diffusion_policy/data/tra/'+name
+    path='./data/ttra/'+name
+    path1='./data/tra/'+name
     if not os.path.exists(path):
         os.mkdir(path)
     if not os.path.exists(path1):
