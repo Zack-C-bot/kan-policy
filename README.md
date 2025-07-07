@@ -1,7 +1,7 @@
 # KAN POLICY
 
 ## Simulation
-![DEMO]([./media/preview.gif](https://github.com/Zack-C-bot/kan-policy/blob/main/media/preview.gif))
+![DEMO](https://github.com/Zack-C-bot/kan-policy/blob/main/media/preview.gif)
 
 ###  Installation
 The code environment setup follows the same installation steps as [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), and we thank the authors for sharing their codebase:
