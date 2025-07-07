@@ -1,13 +1,7 @@
 # KAN POLICY
 
 ## Simulation
-<div align="center">
-  <a href="./media/compressed_com.mp4" target="_blank">
-    <img src="./media/demo.png" alt="DEMO" width="75%">
-  </a>
-  <br>
-  <em>▲ 点击图片查看演示视频 (新标签页打开)</em>
-</div>
+![DEMO](./media/preview.gif)
 
 ###  Installation
 The code environment setup follows the same installation steps as [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), and we thank the authors for sharing their codebase:
