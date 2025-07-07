@@ -1,6 +1,7 @@
 # KAN POLICY
 
 ## Simulation
+
 ![DEMO](https://github.com/Zack-C-bot/kan-policy/blob/main/media/light.gif)
 
 ###  Installation
