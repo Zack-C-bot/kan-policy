@@ -2,7 +2,7 @@
 
 ## Simulation
 <div align="center">
-  <video src="media/compressed_com.mp4" width="75%" controls poster="media/video_cover.jpg">
+  <video src="media/compressed_com.mp4" width="75%" controls poster="media/demo.png">
   </video>
   <br>
   <em>DEMO</em>
