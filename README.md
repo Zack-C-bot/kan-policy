@@ -2,10 +2,11 @@
 
 ## Simulation
 <div align="center">
-  <video src="media/compressed_com.mp4" width="75%" controls poster="media/demo.png">
-  </video>
+  <a href="./media/compressed_com.mp4" target="_blank">
+    <img src="./media/demo.png" alt="DEMO" width="75%">
+  </a>
   <br>
-  <em>DEMO</em>
+  <em>▲ 点击图片查看演示视频 (新标签页打开)</em>
 </div>
 
 ###  Installation
