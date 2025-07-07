@@ -1,16 +1,6 @@
 # KAN POLICY
 
 ## Simulation
-
-<div align="center">
-<a href="./media/compressed_com.mp4" target="_blank">
-<img src="./media/thumbnail.jpg" alt="KAN POLICY DEMO" style="max-width:80%; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-</a>
-<p style="margin-top:12px; font-weight:500; color:#333;">
-<i class="fas fa-play-circle"></i> KAN POLICY DEMO
-</p>
-</div>
-
 ###  Installation
 The code environment setup follows the same installation steps as [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), and we thank the authors for sharing their codebase:
 ```console
