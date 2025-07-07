@@ -1,6 +1,13 @@
 # KAN POLICY
 
 ## Simulation
+<div align="center">
+  <video src="media/compressed_com.mp4" width="75%" controls poster="media/video_cover.jpg">
+  </video>
+  <br>
+  <em>DEMO</em>
+</div>
+
 ###  Installation
 The code environment setup follows the same installation steps as [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), and we thank the authors for sharing their codebase:
 ```console
