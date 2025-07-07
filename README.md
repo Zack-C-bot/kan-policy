@@ -2,7 +2,14 @@
 
 ## Simulation
 
-![DEMO](https://github.com/Zack-C-bot/kan-policy/blob/main/media/light.gif)
+<div align="center">
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; width:100%;">
+    <div style="text-align:center; flex:1; min-width:300px;">
+      <img src="./media/light.gif" alt="GIF演示" style="max-width:100%; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
+      <p style="margin-top:8px; font-size:14px;">Preview of our work (The full demo video has been uploaded to our codebase)</p>
+    </div>
+  </div>
+</div>
 
 ###  Installation
 The code environment setup follows the same installation steps as [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), and we thank the authors for sharing their codebase:
