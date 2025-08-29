@@ -26,7 +26,7 @@ class KANLinear(torch.nn.Module):
         in_features,
         out_features,
         grid_size=5,
-        spline_order=4,#2,3,4
+        spline_order=3, #2,3,4
         scale_noise=0.1,
         scale_base=1.0,
         scale_spline=1.0,
