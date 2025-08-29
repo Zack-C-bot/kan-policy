@@ -19,7 +19,7 @@ import math
 
 class KANLinear(torch.nn.Module):
     '''
-       The code comes from ukan(https://yes-ukan.github.io/)
+       This code is based on ukan (https://arxiv.org/abs/2406.02918)
     '''
     def __init__(
         self,
