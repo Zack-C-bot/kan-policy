@@ -1,16 +1,6 @@
 # KAN POLICY
 
 ## Simulation
-
-<div align="center">
-  <p align="center">
-    <img src="./media/light.gif" alt="GIF演示" style="max-width:100%; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-  </p>
-  <p align="center" style="margin-top:8px; font-size:14px;">
-    Preview of our work (The full demo video has been uploaded to our codebase)
-  </p>
-</div>
-
 ###  Installation
 The code environment setup follows the same installation steps as [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), and we thank the authors for sharing their codebase:
 ```console
@@ -81,6 +71,15 @@ Samely with the mean time, you can edit the code in time_summary.py and run.
 ```console
 $ python time_summary.py
 ```
+
+<div align="center">
+  <p align="center">
+    <img src="./media/light.gif" alt="GIF演示" style="max-width:100%; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
+  </p>
+  <p align="center" style="margin-top:8px; font-size:14px;">
+    Preview of our work (The full demo video has been uploaded to our codebase)
+  </p>
+</div>
 
 
 ### Notice
