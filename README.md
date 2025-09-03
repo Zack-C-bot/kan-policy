@@ -1,6 +1,17 @@
 # KAN POLICY
 
 ## Simulation
+
+<div align="center">
+  <p align="center">
+    <img src="./media/light.gif" alt="GIF演示" width="900" style="max-width:100%; border-radius:8px;" />
+  </p>
+  <p align="center" style="margin-top:8px; font-size:14px;">
+    Preview of our work (The full demo video has been uploaded to our codebase)
+  </p>
+</div>
+
+
 ###  Installation
 The code environment setup follows the same installation steps as [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), and we thank the authors for sharing their codebase:
 ```console
@@ -71,16 +82,6 @@ Samely with the mean time, you can edit the code in time_summary.py and run.
 ```console
 $ python time_summary.py
 ```
-
-<div align="center">
-  <p align="center">
-    <img src="./media/light.gif" alt="GIF演示" width="800" style="max-width:100%; border-radius:8px;" />
-  </p>
-  <p align="center" style="margin-top:8px; font-size:14px;">
-    Preview of our work (The full demo video has been uploaded to our codebase)
-  </p>
-</div>
-
 
 ### Notice
 1.We utilized a significant number of GPUs for model training, including 2080Ti, 4080super, 4090 and 5090. If needed, we can initially provide [ckpts](https://pan.baidu.com/s/18in2PwhOfLJ_01XPG6XTmQ?pwd=kpkp) for a subset of the tasks.
