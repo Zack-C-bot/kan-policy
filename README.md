@@ -4,11 +4,12 @@
 
 <div align="center">
   <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; width:100%;">
-    <div style="text-align:center; flex:1; min-width:300px;">
+    <!-- 主要改动在这里：设置了 width 和 max-width 来控制大小 -->
+    <div style="text-align:center; width:80%; max-width:700px;">
       <img src="./media/light.gif" alt="GIF演示" style="max-width:100%; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
       <p style="margin-top:8px; font-size:14px;">Preview of our work (The full demo video has been uploaded to our codebase)</p>
     </div>
-  </div>
+  </div> 
 </div>
 
 ###  Installation
