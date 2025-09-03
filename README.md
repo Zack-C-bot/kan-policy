@@ -74,7 +74,7 @@ $ python time_summary.py
 
 <div align="center">
   <p align="center">
-    <img src="./media/light.gif" alt="GIF演示" style="max-width:100%; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
+    <img src="./media/light.gif" alt="GIF演示" style="max-width:100%; border-radius:8px;" />
   </p>
   <p align="center" style="margin-top:8px; font-size:14px;">
     Preview of our work (The full demo video has been uploaded to our codebase)
