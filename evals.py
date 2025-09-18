@@ -32,7 +32,8 @@ for i,j in enumerate(ckpt_dirs):
 
 
 
-#evals for single ckpt and generate the trajectory and videos , if 'videos' in output_dir the code will be automatic to generate.
+#evals for single ckpt and generate the trajectory and videos , if 'videos' in output_dir the code will be automatic to generate. Refer to ./test for test smoothness.
 ckpt_path=['./data/outputs/lift_ph_cnn/44/checkpoints/epoch=0350-test_mean_score=1.000.ckpt']
 
 single_evals(ckpt_path)
+
